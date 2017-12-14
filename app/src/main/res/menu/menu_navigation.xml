@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemimport"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Import"/>
+    <item android:id="@+id/itemgallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Gallery"/>
+    <item android:id="@+id/itemslideshow"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="Slideshow"/>
+    <item android:id="@+id/itemtools"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Tools"/>
+    <item android:title="Communicate"
+        android:id="@+id/itemcommunicate">
+        <menu>
+            <item android:id="@+id/itemshare"
+                android:title="Share"
+                android:icon="@android:drawable/ic_menu_share"/>
+            <item android:id="@+id/itemsend"
+                android:title="Send"
+                android:icon="@android:drawable/ic_menu_send"/>
+        </menu>
+    </item>
+</menu>
